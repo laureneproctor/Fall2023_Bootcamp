@@ -24,7 +24,11 @@ var requestHandler = function(request, response) {
     
     HINT: Explore the list of MIME Types
     https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types
-   */
+   
+    HINT: Explore mdn web docs for resources on how to use javascript.
+    Helpful example: if-else structure- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+
+    */
 };
 
 fs.readFile('listings.json', 'utf8', function(err, data) {
@@ -40,9 +44,12 @@ fs.readFile('listings.json', 'utf8', function(err, data) {
    */
 
     //Check for errors
+    /*this resource gives you an idea of the general format err objects and Throwing an existing object.
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw#throwing_an_existing_object
+   */
   
 
-   //Save the state in the listingData variable already defined
+   //Save the data in the listingData variable already defined
   
 
   //Creates the server
